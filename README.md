@@ -1,4 +1,3 @@
-<h1 align="center">:dog:</h1>
 <p align="center">
   <img src="src/images/henry.png" width="300">
   <br>
