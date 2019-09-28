@@ -12,11 +12,9 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "rimraf public",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "dev": "gatsby develop",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
-    "start": "npm run dev",
-    "test": "npm run type-check && npm run lint",
+    "test": "jest",
     "type-check": "tsc"
   },
   "engines": {
@@ -54,18 +52,38 @@
     "typescript": "^3.5.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@testing-library/react": "^9.2.0",
     "@types/classnames": "^2.2.8",
+    "@types/jest": "^24.0.18",
     "@types/node": "^12.0.10",
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
     "@types/react-helmet": "^5.0.8",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
-    "@typescript-eslint/parser": "^1.10.2",
-    "eslint": "^6.0.0",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb": "18.0.1",
     "eslint-config-blvd": "^0.1.1",
     "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "gh-pages": "^2.0.1",
-    "rimraf": "^2.6.3"
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.1.0"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
   }
 }
