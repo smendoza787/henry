@@ -1,6 +1,5 @@
 <p align="center">
   <img src="src/images/henry.png" width="350">
-  <br />
   :dog:
   <br />
   <br />
