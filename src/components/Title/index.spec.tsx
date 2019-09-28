@@ -13,5 +13,6 @@ describe('<Title />', () => {
     const title = "Example 2"
     const { getByText } = render(<Title title={title} />)
     getByText(title)
+    console.log('success')
   })
 });
