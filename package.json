@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-typescript-plus",
+  "name": "henry",
   "description": "A starter kit for TypeScript-based Gatsby projects with sensible defaults.",
   "version": "1.0.0",
   "private": true,
-  "author": "Resi Respati <resir014@gmail.com>",
+  "author": "Sergio Mendoza <smendoza787@gmail.com>",
   "keywords": [
     "gatsby"
   ],
@@ -65,14 +65,10 @@
     "babel-plugin-transform-export-extensions": "^6.22.0",
     "eslint": "6.1.0",
     "eslint-config-airbnb": "18.0.1",
-    "eslint-config-blvd": "^0.1.1",
-    "eslint-config-prettier": "^5.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "gh-pages": "^2.0.1",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
     "rimraf": "^2.6.3",
